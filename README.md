@@ -1,3 +1,5 @@
 # Emotion_Detection_CNN
 
 Data Set Link - https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
+
+The system we have developed is designed and programmed with 27 layers of Convolutional Neural Networks and the dataset used consists a total of 7 classes in which 28,821 images are used for training and 7,066 are used for testing. Upon training the model, the accuracy is checked and the learning rate is calculated based on the number of epochs. An epoch is a term used in machine learning to represent the number of passes of the entire training data module. As the dataset used is of large size, we divided it into a batch size of 225. Feature Extraction being the crucial part of the training phase, extracting the specific patterns from the images was done by the max pooling function. After training and extracting the features, model is created, saved, and loaded for the further testing process. The model intakes the live capturing via the default camera of the system and the output is predicted.
